@@ -1,0 +1,41 @@
+
+selector{
+    /* ACTIVAR FLEXBOX */
+display: flex;            /* Convierte el contenedor en flex */
+
+/* DIRECCIÓN DEL CONTENIDO */
+flex-direction: row;      /* En fila (horizontal) - por defecto */
+flex-direction: column;   /* En columna (vertical) */
+
+/* ALINEACIÓN HORIZONTAL */
+justify-content: flex-start;   /* Hacia la izquierda */
+justify-content: center;       /* Centrado horizontal */
+justify-content: flex-end;     /* Hacia la derecha */
+justify-content: space-between;/* Separación máxima entre elementos */
+justify-content: space-around; /* Espacios iguales alrededor */
+justify-content: space-evenly; /* Espacios completamente iguales */
+
+/* ALINEACIÓN VERTICAL */
+align-items: flex-start;   /* Arriba */
+align-items: center;       /* Centrado vertical */
+align-items: flex-end;     /* Abajo */
+align-items: stretch;      /* Estirar verticalmente */
+align-items: baseline;     /* Alinear según texto */
+
+/* MULTILÍNEA (RESPONSIVE) */
+flex-wrap: wrap;          /* Permite saltar a otra fila */
+flex-wrap: nowrap;        /* Todo en una sola línea */
+flex-wrap: wrap-reverse;  /* Similar a wrap pero invertido */
+
+/* ESPACIO ENTRE ELEMENTOS */
+gap: 20px;                /* Separación uniforme */
+
+/* CONTROL POR ELEMENTO HIJO */
+flex-grow: 1;             /* El elemento crece para rellenar espacio */
+flex-shrink: 1;           /* El elemento se encoge si hace falta */
+flex-basis: auto;         /* Tamaño base del elemento */
+order: 1;                 /* Cambia el orden del elemento */
+
+/* ATAJO FLEX PARA LOS HIJOS */
+flex: 1;                  /* grow + shrink + basis juntos */
+}

@@ -1,0 +1,43 @@
+/* ====== TEXTO PRINCIPAL ====== */
+selector {
+    /* Tamaño de letra */
+    font-size: 20px;
+    /* Tipo de letra */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Color del texto */
+    color: black;
+    /* Negrita */
+    font-weight: bold; /* o 100–900 */
+    /* Cursiva */
+    font-style: italic;
+
+    /* Alineación del texto */
+    text-align: left;     /* center, right, justify */
+
+    /* Subrayado / tachado / ningún estilo */
+    text-decoration: none;  /* underline, line-through, overline */
+
+    /* Transformación del texto */
+    text-transform: none;   /* uppercase, lowercase, capitalize */
+
+    /* Sombra del texto */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+
+    /* Separación entre líneas */
+    line-height: 1.5;
+
+    /* Espacio entre letras */
+    letter-spacing: 1px;
+
+    /* Espacio entre palabras */
+    word-spacing: 5px;
+
+    /* Sangría al iniciar una línea */
+    text-indent: 30px;
+
+    /* Ajuste automático del texto (para textos largos) */
+    white-space: normal; /* nowrap, pre, pre-wrap */
+
+    /* Control de desbordamiento del texto */
+    overflow-wrap: break-word; /* evita que se salga del contenedor */
+}

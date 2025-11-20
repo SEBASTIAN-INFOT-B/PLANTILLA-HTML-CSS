@@ -1,0 +1,48 @@
+table {
+            width: 60%;                       /*el ancho de una caja*/
+            border-collapse: collapse;        /*Junta los bordes*/
+            margin-top: 10px;             /*margen superior*/
+            margin-left: 40px;            /*margen izquierdo*/
+            }
+
+th, td {
+            border: 1px solid black;          /* Borde celdas */
+            padding: 10px;                    /* espacio entre el borde y el contenido */
+            text-align: center;               /* Centra texto */
+            }
+
+th {
+            background-color: #e0e0e0;
+            }
+
+.listas-ordenadas-desordenadas{
+    font-size: 30px;
+    font-family: serif;
+    color: coral;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+
+}
+#COLUMNAS{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 20PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /*VARIEDADES DE text-align 
+text-align: left;       Izquierda 
+text-align: center;     Centro 
+text-align: right;      Derecha 
+text-align: justify;    Justificado 
+text-align: start;      Inicio del idioma 
+text-align: end;        Final del idioma */
+      
+}
+#COLUMNAS article{
+    width: 49%;
+    border:1px solid black;
+    padding: 10px;
+}

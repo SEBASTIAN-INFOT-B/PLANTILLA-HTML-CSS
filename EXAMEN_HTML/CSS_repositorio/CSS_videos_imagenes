@@ -1,0 +1,54 @@
+/* AJUSTES GENERALES DE IMÁGENES */
+img {
+    width: 300px;              /* ancho */
+    height: auto;              /* mantiene proporción */
+    max-width: 100%;           /* se adapta al contenedor */
+    border-radius: 10px;       /* bordes redondeados */
+    border: 2px solid black;   /* borde */
+    object-fit: cover;         /* recorta sin deformar */
+    display: block;            /* permite centrar */
+    margin: 0 auto;            /* centrar imagen */
+}
+
+/* AJUSTES GENERALES DE VIDEOS */
+video {
+    width: 600px;              /* ancho del video */
+    max-width: 100%;           /* adaptable */
+    border-radius: 10px;       /* bordes suaves */
+    border: 2px solid black;   /* borde */
+    display: block;            /* permite centrar */
+    margin: 20px auto;         /* espacio + centrado */
+    object-fit: cover;         /* útil cuando existe height fija */
+}
+
+
+/* AJUSTES GENERALES PARA AUDIOS */
+audio {
+    width: 300px;              /* tamaño del reproductor */
+    display: block;            /* para poder centrar */
+    margin: 20px auto;         /* espacio + centrado */
+    filter: drop-shadow(0 0 5px #999);   /* sombra opcional */
+}
+
+/* Centrar contenido multimedia */
+.centrado {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Dar sombra */
+.sombra {
+    box-shadow: 0px 0px 10px black;
+}
+
+/* Separación */
+.espacio {
+    margin: 20px 0;
+}
+
+/* Para poner varios elementos en fila */
+.fila {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+}

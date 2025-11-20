@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANTILLA HTML/ CSS</title>
+    <!--ENLACE CSS EXTERNAL-->
+    <link rel="stylesheet" href="CSS_repositorio/CSS_tabla.css">
+    
+    <style>
+        .fotos{
+            display: flex; /*coloca las fotos en una fila*/
+            gap: 10px;   /*separación entre fotos*/
+            justify-content:center;
+            margin-top: 40px; /*separación del contenido superior*/
+
+        }
+        .fotos img{
+            width: 400px; /*ancho de las fotos*/
+            border-radius: 8px; /*que tan redondeadas son las esquinas*/
+            
+             
+        }
+        .multimedia{
+            display:flex;
+            margin-top: 40px; /*separación del contenido superior*/
+            justify-content: center; /*centra los elementos*/
+
+        }
+        .parrafo{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:blueviolet;
+            margin-top: 10px;
+            text-align: center;
+        }
+    /* body{
+    background-image: url("MULTIMEDIA/ACLOG_aerea.jpeg"); /*foto de fondo de pantalla*/
+
+        
+    </style>
+<!--
+-head 
+-body: -header-body: main, section, article
+-footer
+
+id="nombre"   #nombre{color:red;}
+class="nombre"  .nombre{color:blue;}
+-->
+
+
+</head>
+
+<body>
+    
+
+
+
+    <nav><!--MENÚ DE NAVEGACIÓN-->
+        <ul>
+            <li><a href="#TABLA">TABLAS</a></li>
+            <li><a href="#IMAGEN">IMÁGENES</a></li>
+            <li><a href="#MULTIMEDIA">MULTIMEDIA</a></li>
+            <li><a href="#COLUMNAS">COLUMNAS</a></li>
+            <li><a href="#tablas2">TABLAS</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="TABLA">
+        <h1>Tablas</h1>
+    </section>
+    <!--PLANTILLA PARA TABLA-->
+    <table>
+        <tr>
+            <th></th>
+            <th>lunes</th>
+            <th>martes</th>
+            <th>miercoles</th>
+            <th>jueves</th>
+            <th>viernes</th>
+        </tr>
+        <tr>
+            <td>desayuno</td>
+            <td>tostada</td>
+            <td>bollo</td>
+            <td>chocolate</td>
+            <td>batido</td>
+            <td>fruta</td>
+        </tr>
+        <tr>
+            <td>comida</td>
+            <td>sandwich</td>
+            <td>tortilla</td>
+            <td>albondiga</td>
+            <td>piña</td>
+            <td>pasta</td>
+        </tr>
+    </table>
+
+    <!--IMÁGENES-->
+    <section id="IMÁGEN"><!--COMANDOS DE NAVEGAR-->
+        <h2 style="margin-left: 40px; 
+                    color:blue;
+                    font-size: 40px;
+                    font-family: 'Times New Roman', Times, serif;
+                    background-color: aquamarine;">Imágenes</H1>
+    
+
+        <div class="fotos">
+            <img src="MULTIMEDIA/ACLOG_aerea.jpeg">
+            <img src="MULTIMEDIA/Imagen_75_aguila_azorada_del_momunento_al_cuerpo_especialistas.jpg">
+            <img src="MULTIMEDIA/Ingreso_en_la_ACLOG.jpg">
+        </div>
+    </section>
+
+    <!--MULTIMEDIA-->
+    <section id="MULTIMEDIA"><!--COMANDOS DE NAVEGAR-->
+        <h2 style="margin-left: 40px;">MULTIMEDIA
+        </h2>
+
+        <div class="multimedia">
+            <video src="MULTIMEDIA/file_example_MP4_480_1_5MG.mp4"controls width="400"></video>
+            <audio src="MULTIMEDIA/sample-3s.mp3" controls></audio>
+        </div>
+    </section>
+
+
+    <!--COLUMNAS-->
+    <h2 style="text-align:center; font-size: 40px;font-family: Verdana, Geneva, Tahoma, sans-serif;">COLUMNAS</h2>
+    
+    <section id="COLUMNAS"><!--COMANDOS DE NAVEGAR-->
+        
+        <!--COLUMNA IZQUIERDA-->
+        <article style="background-color: burlywood;">
+            <header>
+                <h2 style="text-decoration: underline;background-color: blueviolet;">Secciones divididas, primera parte</h2>
+            </header>
+            <p style="background-color: yellow;">La mañana comenzó con una energía suave y agradable, perfecta para concentrarse en las tareas importantes del día. Mientras el ambiente se mantenía en silencio, pude organizar mis ideas con claridad y avanzar paso a paso. A veces, estos momentos tranquilos se convierten en los más productivos y nos ayudan a mantener el equilibrio que necesitamos.
+            </p>
+                <br>
+            <p style="background-color: bisque;">La mañana comenzó con una energía suave y agradable, perfecta para concentrarse en las tareas importantes del día. Mientras el ambiente se mantenía en silencio, pude organizar mis ideas con claridad y avanzar paso a paso. A veces, estos momentos tranquilos se convierten en los más productivos y nos ayudan a mantener el equilibrio que necesitamos.
+            </p>
+            <footer>
+                <p>Pie de página</p>
+            </footer>
+        </article>
+
+        <!--COLUMNA DERECHA-->
+        <article>
+            <header>
+                <H2>Secciones divididas, segunda parte</H2>
+            </header>
+            <p>La mañana comenzó con una energía suave y agradable, perfecta para concentrarse en las tareas importantes del día. Mientras el ambiente se mantenía en silencio, pude organizar mis ideas con claridad y avanzar paso a paso. A veces, estos momentos tranquilos se convierten en los más productivos y nos ayudan a mantener el equilibrio que necesitamos.
+            </p>
+                <br>
+            <p>La mañana comenzó con una energía suave y agradable, perfecta para concentrarse en las tareas importantes del día. Mientras el ambiente se mantenía en silencio, pude organizar mis ideas con claridad y avanzar paso a paso. A veces, estos momentos tranquilos se convierten en los más productivos y nos ayudan a mantener el equilibrio que necesitamos.
+            </p>
+            <footer>Pié de página
+            </footer>
+        </article>
+   
+    </section>
+
+    
+    <!--LISTAS ORDENADAS Y DESORDENADAS-->
+
+    <section id="tablas2"><!--COMANDOS DE NAVEGAR-->
+        <h2>Tablas</h2>
+
+        <div class="listas-ordenadas-desordenadas">
+            <ul>
+                <li>Estudiar Inglés</li>
+                <li>Ir al supermercado</li>
+                <li>Lavar la furgoneta</li>
+                <li>Pasar a limpio los apuntes</li>
+            </ul>
+        
+            <ol>
+                <li>07:00 Desayunar</li>
+                <li>07:30 Lavarme los dientes</li>
+                <li>08:00 Ir a clase</li>
+                <li>14:00 Ir al comedor</li>
+            </ol>
+        </div>
+    </section>
+
+
+
+
+</body>
+</html>
